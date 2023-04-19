@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyAngularApp';
+
+  AppBotaoClick(): void{
+    console.log('Foi')
+  }
+
+  AppBotaoOver(): void{
+    console.log('CERTO')
+  }
 }
